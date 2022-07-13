@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>落雨梦的个人主页</title>  
+  <link rel="stylesheet" href="css/buttons.css">
+  <link rel="stylesheet" id="patternfly-adjusted-css" href="css/app.css" type="text/css" media="all">
+  <link href="https://lib.baomitu.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+  <script type="text/javascript" src="https://lib.baomitu.com/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+    #main article { border-bottom: none; }
+	body{
+		    font: 500 .875em PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          overflow: hidden;
+          background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)
+	}
+#stars {
+  margin: 0 auto;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.star {
+  display: block;
+  width: 1px;
+  background: transparent;
+  position: relative;
+  opacity: 0;
+  filter: drop-shadow(0 0 6px #ffffff);
+  /*过渡动画*/ 
+  animation: star-fall 3.5s linear infinite;
+  -webkit-animation: star-fall 3.5s linear infinite;
+  -moz-animation: star-fall 3.5s linear infinite;
+}
+
+.star:after {
+  content: '';
+  display: block;
+  border: 0px solid #fff;
+  border-width: 0px 90px 2px 90px;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-color: transparent transparent transparent rgba(255, 255, 255, .6);
+  box-shadow: 0 0 1px 0 rgba(255, 255, 255, .1);
+  /*变形*/       
+  transform: rotate(-45deg) translate3d(1px, 3px, 0);
+  -webkit-transform: rotate(-45deg) translate3d(1px, 3px, 0);
+  -moz-transform: rotate(-45deg) translate3d(1px, 3px, 0);
+  transform-origin: 0% 100%;
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  
+  animation: star-fall-after 3.5s linear initial;
+  -webkit-animation: star-fall-after 3.5s linear initial;
+  -moz-animation: star-fall-after 3.5s linear initial;
+}
+
+@keyframes star-fall {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate3d(0, 0, 0);
+    -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+    -moz-transform: scale(0.5) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 1;
+    transform: translate3d(-300px, 300px, 0);
+    -webkit-transform: translate3d(-300px, 300px, 0);
+    -moz-transform: translate3d(-300px, 300px, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2) translate3d(-500px, 500px, 0);
+    -webkit-transform: scale(1.2) translate3d(-500px, 500px, 0);
+    -moz-transform: scale(1.2) translate3d(-500px, 500px, 0);
+  }
+}
+
+@keyframes star-fall-after {
+  0% {
+    border-width: 0px 80px 2px 80px;
+  }
+  50% {
+    border-width: 0px 90px 2px 90px;
+  }
+  100% {
+    border-width: 0px 45px 2px 45px;
+  }
+}
+.splash{
+  position: relative;
+  }
+  img#qq {
+    width: 128px;
+    background-size: cover;
+    border-radius: 200px;
+    box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
+    border: 3px solid #00a0ff;
+    opacity: 1;
+    margin: 0 auto;
+	margin-bottom: 20px;
+	transition: all 1.0s;  
+}
+#qq:hover {
+    box-shadow: 0 0 10px #fff;
+    -webkit-box-shadow: 0 0 19px #fff;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg); 	/* IE 9 */
+    -moz-transform:rotate(360deg); 	/* Firefox */
+    -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+    -o-transform:rotate(360deg); 	/* Opera */
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+  </style>
+
+
+<body class="home page page-id-194 page-template page-template-page-homepage page-template-page-homepage-php custom-background" ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+  <header role="banner">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+          </button>
+          <a class="navbar-brand" id="logo" title="HY-PHP" href="http://q1.qlogo.cn/g?b=qq&nk=1806575715&s=640" target="_blank">
+           落雨梦的个人主页          </a>
+        </div>
+        <!-- end .navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul id="menu-primary" class="nav navbar-nav navbar-right">
+         
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+              <a href="http://api.888655.xyz/" class="dropdown-toggle" target="_blank">
+                孤梦API
+              </a>
+            </li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+              <a href="http://wpa.qq.com/msgrd?v=3&uin=1806575715&site=qq&menu=yes" class="dropdown-toggle" target="_blank">
+               联系
+              </a>
+            </li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown">
+              <a href="zz/index.html" class="dropdown-toggle" target="_blank">
+                赞助
+              </a>
+            </li>
+            
+                
+              
+       
+          </ul>
+        </div>
+        <!-- end .navbar-collapse -->
+      </div>
+      <!-- end .container -->
+    </nav>
+    <!-- end .navbar -->
+  </header>
+  <!-- end header -->
+  <div class="jumbotron">
+    <div class="container">
+      <div class="splash">
+        <div class="content">
+          <img src="http://q1.qlogo.cn/g?b=qq&nk=1806575715&s=640" alt="PatternFly logo" id="qq" class="wow fadeInDown animated"
+          style="visibility: visible; animation-name: fadeInDown;">
+          <h1 class="wow fadeIn animated" data-wow-delay="750ms" style="visibility: visible; animation-delay: 750ms; animation-name: fadeIn;">
+            落雨梦的个人主页          </h1>
+          <p class="description wow fadeIn animated" data-wow-delay="1250ms" style="visibility: visible; animation-delay: 1250ms; animation-name: fadeIn;">
+           <script type="text/javascript" src="https://api.vvhan.com/api/ian?type=js"></script>
+<script>ishan()</script></p>
+          <a target="_blank" href="http://api.888655.xyz" class="button button-glow button-border button-rounded button-primary">孤梦API</a>&nbsp&nbsp&nbsp&nbsp
+		  <a target="_blank" href="zz/index.html" class="button button-glow button-border button-rounded button-primary">赞助孤梦</a>&nbsp&nbsp&nbsp&nbsp
+		  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1806575715&site=qq&menu=yes" class="button button-glow button-border button-rounded button-primary"></i>联系我吧</a><br><br><br><br><br><br>
+
+
+ 
+<!--music-->
+<link rel="stylesheet" href="css/APlayer.min.css">
+<script type="text/javascript" src="js/APlayer.min.js"></script>
+<div class="aplayer" data-id="1376142151" data-server="netease" data-type="song" data-auth="576adc45aaab6f0a7b1622bb551e0417" data-theme="#ff5722" data-preload="auto" data-autoplay="false" data-listMaxHeight="340px" data-order="list"></div>
+<script type="text/javascript" src="js/Meting.min.js"></script>
+<script>$(document).on('pjax:complete',function(){if(typeof _hmt !== 'undefined'){ _hmt.push(['_trackPageview', location.pathname + location.search])};if(!$('.post-content').length){ $('.qrcode').css('display', 'none')}else{ $('.qrcode').css('display', 'block')};if (typeof ga !== 'undefined'){ga('send', 'pageview', location.pathname + location.search);};
+if (typeof _hmt !== 'undefined'){_hmt.push(['_trackPageview', location.pathname + location.search]);};
+loadMeting();
+if (typeof aplayers !== 'undefined'){
+    for (var i = 0; i < aplayers.length; i++) {
+        try {aplayers[i].destroy()} catch(e){}
+    }
+};
+$('pre code').each(function(i, block) {hljs.highlightBlock(block)});});</script>
+
+
+
+
+		  <div style="
+    width: 100%;
+    bottom: 30px;
+    box-sizing: border-box;
+    left: 0;
+">©2020-2023 落雨梦的个人主页</div>
+        </div>
+      </div>
+    </div>
+
+<div id="stars">
+  <div class="star" style="top: 0px;left: 500px;"></div>
+</div>
+  </div>
+<script type="text/javascript">
+var stars = document.getElementById("stars");
+
+  // js随机生成流星
+  for (var j = 0; j < 30; j++) {
+    var newStar = document.createElement("div");
+    newStar.className = "star";
+    newStar.style.top = randomDistance(300, -100) + "px";
+    newStar.style.left = randomDistance(1600, 300) + "px";
+    stars.appendChild(newStar);
+  }
+
+  // 封装随机数方法
+  function randomDistance(max, min) {
+    var distance = Math.floor(Math.random() * (max - min + 1) + min);
+    return distance;
+  }
+
+  var star = document.getElementsByClassName("star");
+
+  // 给流星添加动画延时
+  for (var i = 0, len = star.length; i < len; i++) {
+    star[i].style.animationDelay = i % 6 == 0 ? "0s" : i * 0.3 + "s";
+  }
+</script>
+
+</body>
+</html>
